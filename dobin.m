@@ -1,4 +1,7 @@
 function Y=dobin(K,kk)
+% girdi K tam sayı kk binary uzunluğu
+% çıktı Y binary sayı
+
    A=dec2bin(K,kk);
    X=find(A=='1');
    [m,n]=size(X);
